@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DefaultLatitude" xml:space="preserve">
+    <value>Default Latitude</value>
+  </data>
+  <data name="DefaultLongitude" xml:space="preserve">
+    <value>Default Longitude</value>
+  </data>
+  <data name="MaxTravelDistanceInMeters" xml:space="preserve">
+    <value>Max Travel Distance in Meters</value>
+  </data>
+  <data name="WalkingSpeedInKilometerPerHour" xml:space="preserve">
+    <value>Walking Speed (in KPH)</value>
+  </data>
+  <data name="MaxSpawnLocationOffset" xml:space="preserve">
+    <value>Max Spawn Location Offset</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Current Latitude</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>Current Longitude</value>
+  </data>
+  <data name="DelayBetweenPlayerActions" xml:space="preserve">
+    <value>Delay Between Player Actions (ms)</value>
+  </data>
+  <data name="DelayBetweenPokemonCatch" xml:space="preserve">
+    <value>Delay Between Pokemon Catch (ms)</value>
+  </data>
+  <data name="AuthType" xml:space="preserve">
+    <value>Auth Type</value>
+  </data>
+  <data name="GoogleUsername" xml:space="preserve">
+    <value>Google Username</value>
+  </data>
+  <data name="GooglePassword" xml:space="preserve">
+    <value>Google Password</value>
+  </data>
+  <data name="PtcUsername" xml:space="preserve">
+    <value>PTC Username</value>
+  </data>
+  <data name="PtcPassword" xml:space="preserve">
+    <value>PTC Password</value>
+  </data>
+  <data name="UseProxyHost" xml:space="preserve">
+    <value>Proxy Host</value>
+  </data>
+  <data name="UseProxyPort" xml:space="preserve">
+    <value>Proxy Port</value>
+  </data>
+  <data name="UseProxyUsername" xml:space="preserve">
+    <value>Proxy Username</value>
+  </data>
+  <data name="UseProxyPassword" xml:space="preserve">
+    <value>Proxy Password</value>
+  </data>
+  <data name="DevicePackageName" xml:space="preserve">
+    <value>Device Package</value>
+  </data>
+  <data name="DeviceId" xml:space="preserve">
+    <value>Device ID</value>
+  </data>
+  <data name="AndroidBoardName" xml:space="preserve">
+    <value>Android Board Name</value>
+  </data>
+  <data name="AndroidBootloader" xml:space="preserve">
+    <value>Android Bootloader</value>
+  </data>
+  <data name="DeviceBrand" xml:space="preserve">
+    <value>Device Brand</value>
+  </data>
+  <data name="DeviceModel" xml:space="preserve">
+    <value>Device Model</value>
+  </data>
+  <data name="DeviceModelIdentifier" xml:space="preserve">
+    <value>Device Model Identifier</value>
+  </data>
+  <data name="DeviceModelBoot" xml:space="preserve">
+    <value>Device Model Boot</value>
+  </data>
+  <data name="HardwareManufacturer" xml:space="preserve">
+    <value>Hardware Manufacturer</value>
+  </data>
+  <data name="HardwareModel" xml:space="preserve">
+    <value>Hardware Model</value>
+  </data>
+  <data name="FirmwareBrand" xml:space="preserve">
+    <value>Firmware Brand</value>
+  </data>
+  <data name="FirmwareTags" xml:space="preserve">
+    <value>Firmware Tags</value>
+  </data>
+  <data name="FirmwareType" xml:space="preserve">
+    <value>Firmware Type</value>
+  </data>
+  <data name="FirmwareFingerprint" xml:space="preserve">
+    <value>Firmware Fingerprint</value>
+  </data>
+  <data name="RecycleInventoryAtUsagePercentage" xml:space="preserve">
+    <value>Recycle Inventory at %</value>
+  </data>
+  <data name="TotalAmountOfPokeballsToKeep" xml:space="preserve">
+    <value>Total Balls to Keep</value>
+  </data>
+  <data name="TotalAmountOfPotionsToKeep" xml:space="preserve">
+    <value>Total Potions to Keep</value>
+  </data>
+  <data name="TotalAmountOfRevivesToKeep" xml:space="preserve">
+    <value>Total Revives to Keep</value>
+  </data>
+  <data name="TotalAmountOfBerriesToKeep" xml:space="preserve">
+    <value>Total Berries to Keep</value>
+  </data>
+  <data name="TotalItemsBeingKept" xml:space="preserve">
+    <value>Total Items Being Kept</value>
+  </data>
+  <data name="UseLuckyEggsMinPokemonAmount" xml:space="preserve">
+    <value>Use Lucky Eggs Min Pokemon</value>
+  </data>
+  <data name="RenameTemplate" xml:space="preserve">
+    <value>Rename Template</value>
+  </data>
+  <data name="AmountOfTimesToUpgradeLoop" xml:space="preserve">
+    <value>Amount Of Times To Upgrade Loop</value>
+  </data>
+  <data name="GetMinStarDustForLevelUp" xml:space="preserve">
+    <value>Minimum Stardust Reserve for Upgrade</value>
+  </data>
+  <data name="LevelUpByCPorIv" xml:space="preserve">
+    <value>Upgrade by CP or IV%</value>
+  </data>
+  <data name="UpgradePokemonCpMinimum" xml:space="preserve">
+    <value>Upgrade Pokemon Above CP</value>
+  </data>
+  <data name="UpgradePokemonIvMinimum" xml:space="preserve">
+    <value>Upgrade Pokemon Above IV%</value>
+  </data>
+  <data name="UpgradePokemonMinimumStatsOperator" xml:space="preserve">
+    <value>Upgrade Stats Operator</value>
+  </data>
+  <data name="EvolveAboveIvValue" xml:space="preserve">
+    <value>Evolve Above IV%</value>
+  </data>
+  <data name="EvolveKeptPokemonsAtStorageUsagePercentage" xml:space="preserve">
+    <value>Evolve Pokemon at Storage Usage %</value>
+  </data>
+  <data name="FavoriteMinIvPercentage" xml:space="preserve">
+    <value>Favorite Pokemon above IV%</value>
+  </data>
+  <data name="MaxPokeballsPerPokemon" xml:space="preserve">
+    <value>Max Balls Per Pokemon</value>
+  </data>
+  <data name="MaxBerriesToUsePerPokemon" xml:space="preserve">
+    <value>Max Berries Per Pokemon</value>
+  </data>
+  <data name="UseGreatBallAboveCp" xml:space="preserve">
+    <value>Use Great Ball Above CP</value>
+  </data>
+  <data name="UseUltraBallAboveCp" xml:space="preserve">
+    <value>Use Ultra Ball Above CP</value>
+  </data>
+  <data name="UseMasterBallAboveCp" xml:space="preserve">
+    <value>Use Master Ball Above CP</value>
+  </data>
+  <data name="UseGreatBallAboveIv" xml:space="preserve">
+    <value>Use Great Ball Above IV%</value>
+  </data>
+  <data name="UseUltraBallAboveIv" xml:space="preserve">
+    <value>Use Ultra Ball Above IV%</value>
+  </data>
+  <data name="UseGreatBallBelowCatchProbability" xml:space="preserve">
+    <value>Use Great Ball Below % Probability</value>
+  </data>
+  <data name="UseUltraBallBelowCatchProbability" xml:space="preserve">
+    <value>Use Ultra Ball Below % Probability</value>
+  </data>
+  <data name="UseMasterBallBelowCatchProbability" xml:space="preserve">
+    <value>Use Master Ball Below % Probability</value>
+  </data>
+  <data name="UseBerriesMinCp" xml:space="preserve">
+    <value>Use Berries when Above CP</value>
+  </data>
+  <data name="UseBerriesMinIv" xml:space="preserve">
+    <value>Use Berries when Above IV%</value>
+  </data>
+  <data name="UseBerriesBelowCatchProbability" xml:space="preserve">
+    <value>Use Berries Below % Probability</value>
+  </data>
+  <data name="UseBerriesOperator" xml:space="preserve">
+    <value> Operator</value>
+  </data>
+  <data name="NiceThrowChance" xml:space="preserve">
+    <value>Nice Throw % Chance</value>
+  </data>
+  <data name="GreatThrowChance" xml:space="preserve">
+    <value>Great Throw % Chance</value>
+  </data>
+  <data name="ExcellentThrowChance" xml:space="preserve">
+    <value>Excellent Throw % Chance</value>
+  </data>
+  <data name="NormalThrowChance" xml:space="preserve">
+    <value>Computed Normal Throw % Chance</value>
+  </data>
+  <data name="CurveThrowChance" xml:space="preserve">
+    <value>Curve Throw % Chance</value>
+  </data>
+  <data name="ForceGreatThrowOverIv" xml:space="preserve">
+    <value>Force Great Throw Over IV%</value>
+  </data>
+  <data name="ForceExcellentThrowOverIv" xml:space="preserve">
+    <value>Force Excellent Throw Over IV%</value>
+  </data>
+  <data name="ForceGreatThrowOverCp" xml:space="preserve">
+    <value>Force Great Throw Over CP</value>
+  </data>
+  <data name="ForceExcellentThrowOverCp" xml:space="preserve">
+    <value>Force Excellent Throw Over CP</value>
+  </data>
+  <data name="NoTransferCollection" xml:space="preserve">
+    <value>Pokemon to NOT Transfer</value>
+  </data>
+  <data name="AmountOfPokemonToDisplayOnStart" xml:space="preserve">
+    <value>Pokemon to Display at Start</value>
+  </data>
+  <data name="WebSocketPort" xml:space="preserve">
+    <value>WebSocket Port</value>
+  </data>
+  <data name="GpxFile" xml:space="preserve">
+    <value>GPX File</value>
+  </data>
+  <data name="TelegramAPIKey" xml:space="preserve">
+    <value>Telegram API Key</value>
+  </data>
+  <data name="TelegramPassword" xml:space="preserve">
+    <value>Telegram Password</value>
+  </data>
+</root>

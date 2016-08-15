@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DefaultLatitude" xml:space="preserve">
+    <value>The default Latitude to use, if no LastPos.ini file is found will use these by default</value>
+  </data>
+  <data name="DefaultLongitude" xml:space="preserve">
+    <value>The default Longitude to use</value>
+  </data>
+  <data name="MaxTravelDistanceInMeters" xml:space="preserve">
+    <value>The maximum distance in meters the bot will travel from the Lat/Lon being used. 1000 meters = 1 kilometer, 1600 meters = 1 mile</value>
+  </data>
+  <data name="WalkingSpeedInKilometerPerHour" xml:space="preserve">
+    <value>How fast your character will move from point to point. For best safety we recommend keeping this at 15 or below. Decimals are allowed.</value>
+  </data>
+  <data name="MaxSpawnLocationOffset" xml:space="preserve">
+    <value>QED. Integer value.</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>If you have run the bot before, this was the last Latitude you were at and a new start will begin here. If no current coords were found on disk, we reset this to the default values.</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>If you have run the bot before, this was the last Longitude you were at and a new start will begin here. If no current coords were found on disk, we reset this to the default values.</value>
+  </data>
+  <data name="DelayBetweenPlayerActions" xml:space="preserve">
+    <value>How long to pause between player actions in milliseconds (1000 ms = 1 second). Integer value.</value>
+  </data>
+  <data name="DelayBetweenPokemonCatch" xml:space="preserve">
+    <value>How long to pause between Pokemon captures in milliseconds (1000 ms = 1 second). Integer value.</value>
+  </data>
+  <data name="AuthType" xml:space="preserve">
+    <value>Google and Pokemon Trainer's Club (ptc) are the currently supported login methods.</value>
+  </data>
+  <data name="GoogleUsername" xml:space="preserve">
+    <value>The Google account username to use for login.</value>
+  </data>
+  <data name="GooglePassword" xml:space="preserve">
+    <value>The Google account password to use for login.</value>
+  </data>
+  <data name="PtcUsername" xml:space="preserve">
+    <value>The Pokemon Trainer's Club account username to use for login.</value>
+  </data>
+  <data name="PtcPassword" xml:space="preserve">
+    <value>The Pokemon Trainer's Club account password to use for login.</value>
+  </data>
+  <data name="UseProxyHost" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="UseProxyPort" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="UseProxyUsername" xml:space="preserve">
+    <value>Username for proxy authentication.</value>
+  </data>
+  <data name="UseProxyPassword" xml:space="preserve">
+    <value>Password for proxy authentication.</value>
+  </data>
+  <data name="DevicePackageName" xml:space="preserve">
+    <value>The device package to use for this bot, use 'random' to choose one automatically or 'custom' to use your own configs</value>
+  </data>
+  <data name="DeviceId" xml:space="preserve">
+    <value>The device serial number, this is unique per device and should be a 16-digit hexadecimal value</value>
+  </data>
+  <data name="RecycleInventoryAtUsagePercentage" xml:space="preserve">
+    <value>When your inventory reaches this pewrcentage of capacity, start a recycle of spare items.</value>
+  </data>
+  <data name="TotalAmountOfPokeballsToKeep" xml:space="preserve">
+    <value>Total number of all types of Pokeballs to keep - balls of lowest quality get recycled first.</value>
+  </data>
+  <data name="TotalAmountOfPotionsToKeep" xml:space="preserve">
+    <value>Total number of all types of Potions to keep - potions of lowest quality get recycled first.</value>
+  </data>
+  <data name="TotalAmountOfRevivesToKeep" xml:space="preserve">
+    <value>Maintains this many Revives during recycle phase.</value>
+  </data>
+  <data name="TotalAmountOfBerriesToKeep" xml:space="preserve">
+    <value>Maintains this many Berries during recycle phase.</value>
+  </data>
+  <data name="TotalItemsBeingKept" xml:space="preserve">
+    <value>This is how many total items you are asking NecroBot to keep during recycle.</value>
+  </data>
+  <data name="UseLuckyEggsMinPokemonAmount" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="RenameTemplate" xml:space="preserve">
+    <value>A template for how your Pokemon will be renamed. Tokens: {0} is the Pokemon Species, {1} is the IV%</value>
+  </data>
+  <data name="AmountOfTimesToUpgradeLoop" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="GetMinStarDustForLevelUp" xml:space="preserve">
+    <value>If you have less stardust than this, upgrades will not be performed.</value>
+  </data>
+  <data name="LevelUpByCPorIv" xml:space="preserve">
+    <value>Should the CP or IV% of Pokemon be used as the upgrade priority?</value>
+  </data>
+  <data name="UpgradePokemonCpMinimum" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="UpgradePokemonIvMinimum" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="UpgradePokemonMinimumStatsOperator" xml:space="preserve">
+    <value>AND means the Pokemon must meet both IV% and CP requirements - OR means either.</value>
+  </data>
+  <data name="EvolveAboveIvValue" xml:space="preserve">
+    <value>Decimals allowed.</value>
+  </data>
+  <data name="EvolveKeptPokemonsAtStorageUsagePercentage" xml:space="preserve">
+    <value>Decimals allowed.</value>
+  </data>
+  <data name="FavoriteMinIvPercentage" xml:space="preserve">
+    <value>If the IV of a Pokemon is at or above this % it will be favorited and not transfered. Decimals allowed.</value>
+  </data>
+  <data name="MaxPokeballsPerPokemon" xml:space="preserve">
+    <value>Sets the limit of balls to throw at a single Pokemon before giving up.</value>
+  </data>
+  <data name="MaxBerriesToUsePerPokemon" xml:space="preserve">
+    <value>Sets the limit on how many berries to use in a single encounter.</value>
+  </data>
+  <data name="UseGreatBallAboveCp" xml:space="preserve">
+    <value>When Pokemon above this CP level are found, a Great Ball will be used for throws.</value>
+  </data>
+  <data name="UseUltraBallAboveCp" xml:space="preserve">
+    <value>When Pokemon above this CP level are found, an Ultra Ball will be used for throws.</value>
+  </data>
+  <data name="UseMasterBallAboveCp" xml:space="preserve">
+    <value>When Pokemon above this CP level are found, a Master Ball will be used for throws.</value>
+  </data>
+  <data name="UseGreatBallAboveIv" xml:space="preserve">
+    <value>When Pokemon above this IV% are found, a Great Ball will be used for throws.</value>
+  </data>
+  <data name="UseUltraBallAboveIv" xml:space="preserve">
+    <value>When Pokemon above this IV% are found, an Ultra Ball will be used for throws.</value>
+  </data>
+  <data name="UseGreatBallBelowCatchProbability" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="UseUltraBallBelowCatchProbability" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="UseMasterBallBelowCatchProbability" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="UseBerriesMinCp" xml:space="preserve">
+    <value>Use berries on Pokemon at or above this CP level.</value>
+  </data>
+  <data name="UseBerriesMinIv" xml:space="preserve">
+    <value>Use berries on Pokemon at or above this IV%.</value>
+  </data>
+  <data name="UseBerriesBelowCatchProbability" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="UseBerriesOperator" xml:space="preserve">
+    <value>AND means the Pokemon must meet both IV% and CP requirements - OR means either.</value>
+  </data>
+  <data name="NiceThrowChance" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="GreatThrowChance" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="ExcellentThrowChance" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="NormalThrowChance" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="CurveThrowChance" xml:space="preserve">
+    <value>CurveBalls are a throw add-on and separate from quality, setting this too high may get you flagged.</value>
+  </data>
+  <data name="ForceGreatThrowOverIv" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="ForceExcellentThrowOverIv" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="ForceGreatThrowOverCp" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="ForceExcellentThrowOverCp" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="NoTransferCollection" xml:space="preserve">
+    <value>Allows you to choose which Pokemon you do NOT want transferred automatically.</value>
+  </data>
+  <data name="AmountOfPokemonToDisplayOnStart" xml:space="preserve">
+    <value>Allows you to set the number of Pokemon from your collection to display when starting the bot, set to 0 for none.</value>
+  </data>
+  <data name="WebSocketPort" xml:space="preserve">
+    <value>The port to listen on for the NecroBot websocket service.</value>
+  </data>
+  <data name="GpxFile" xml:space="preserve">
+    <value>The full or relative path to the GPX file you want to use for pathing.</value>
+  </data>
+  <data name="TelegramAPIKey" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+  <data name="TelegramPassword" xml:space="preserve">
+    <value>QED.</value>
+  </data>
+</root>
